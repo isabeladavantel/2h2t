@@ -1,51 +1,21 @@
-.verde{
-    width: 100vw;
-    background-color: green;
-    grid-area:verde ;
-    height: 25vh;
-}
-
-.rosa{
-    width: 100vw;
-    background-color: pink;
-    grid-area:rosa ;
-    height: 25vh;
-}
-
-.vermelho{
-    width: 100vw;
-    background-color: red;
-    grid-area:vermelho ;
-    height: 25vh;
-}
-
-.preto{
-    width: 100vw;
-    background-color: black;
-    grid-area:preto ;
-    height: 25vh;
-}
-
-.cinza{
-    width: 100vw;
-    background-color: grey;
-    grid-area:cinza ;
-    height: 50vh;
-}
-
-.azul{
-    width: 100vw;
-    background-color: blue;
-    grid-area:azul ;
-    height: 50vh;
-}
-
-.site{
-    display: grid;
-    grid-template-columns: 10% 70% 20%;
-    grid-template-areas: 
-    "rosa rosa rosa"
-    "azul cinza verde"
-    "azul cinza vermelho"
-    "preto preto preto";
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="estudo.css">
+</head>
+<body>
+    <section class="site">
+        <div class="azul">azul</div>
+        <div class="vermelho">vermelho</div>
+        <div class="preto">preto</div>
+        <div class="roa">rosa</div>
+        <div class="cinza"></div>
+        <div class="verde"></div>
+    </section>
+    
+</body>
+</html>
